@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Absolute Pitch Test</title>
+	<link rel="stylesheet" href="css/styles.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+</head>
+<body>
+	<div class="good"></div>
+	<section id="pianoContainer">
+		<div class="overlay">		
+			<div id="result">
+				<h1>GAME OVER</h1>
+				<div id="tryAgain">Try again</div>
+				<div id="close">Exit</div>
+			</div>
+		</div>
+		<div id="controlsPanel">
+			<div id="display">
+				<span id="info"></span>
+			</div>
+			<div class="repeat">
+				<span>Repeat</span>
+			</div>
+		</div>
+		<div id="keys">
+			<!-- comment tags being used to remove space between blocks -->
+			<div id="C" class="key white" data-key-code="81">
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<audio></audio>
+			</div><!--
+			--><div id="D" class="key white" data-key-code="87">
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<audio></audio>
+			</div><!--
+			--><div id="E" class="key white" data-key-code="69">
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<audio></audio>
+			</div><!--	
+			--><div id="F" class="key white" data-key-code="82">
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<audio></audio>
+			</div><!--
+			--><div id="G" class="key white" data-key-code="84">
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<audio></audio>
+			</div><!--
+			--><div id="A" class="key white" data-key-code="89">
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<audio></audio>
+			</div><!--
+			--><div id="B" class="key white" data-key-code="85">
+				<div class="top"></div>
+				<div class="bottom"></div>
+				<audio></audio>
+			</div>
+			<div id="Db" class="key black" data-key-code="50">
+				<audio></audio>
+			</div>
+			<div id="Eb" class="key black" data-key-code="51">
+				<audio></audio>
+			</div>
+			<div id="Gb" class="key black" data-key-code="53">
+				<audio></audio>
+			</div>
+			<div id="Ab" class="key black" data-key-code="54">
+				<audio></audio>
+			</div>
+			<div id="Bb" class="key black" data-key-code="55">
+				<audio></audio>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
